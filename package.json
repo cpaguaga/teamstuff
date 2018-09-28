@@ -1,0 +1,22 @@
+{
+  "name": "teamstuff",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cpaguaga/teamstuff.git"
+  },
+  "author": "\"claudia jaclyn\"",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cpaguaga/teamstuff/issues"
+  },
+  "homepage": "https://github.com/cpaguaga/teamstuff#readme",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  }
+}
