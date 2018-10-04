@@ -1,7 +1,11 @@
 {
   "name": "teamstuff",
   "version": "1.0.0",
+<<<<<<< HEAD
   "description": "extra credit in-class project ",
+=======
+  "description": "",
+>>>>>>> master
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,6 +14,7 @@
     "type": "git",
     "url": "git+https://github.com/cpaguaga/teamstuff.git"
   },
+<<<<<<< HEAD
   "keywords": [
     "\"extra",
     "credit",
@@ -17,11 +22,20 @@
   ],
   "author": "claudia paguaga, and jaclyn flomen",
   "license": "ISC",
+=======
+  "author": "\"claudia jaclyn\"",
+  "license": "MIT",
+>>>>>>> master
   "bugs": {
     "url": "https://github.com/cpaguaga/teamstuff/issues"
   },
   "homepage": "https://github.com/cpaguaga/teamstuff#readme",
+<<<<<<< HEAD
   "devDependencies": {
     "gulp-sass": "^4.0.1"
+=======
+  "dependencies": {
+    "gulp": "^3.9.1"
+>>>>>>> master
   }
 }
