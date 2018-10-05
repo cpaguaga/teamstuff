@@ -10,7 +10,7 @@ function block_display()
 {
 	console.log()
   btn.onclick = function(block_display) {
-  modal.style.display = "block";
+  modal.style.height = "100%";
 }
 }
 
