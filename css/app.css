@@ -178,6 +178,21 @@ body {
       object-fit: cover;
     }
 
+    #jaclyn
+    {
+      float: left;
+    }
+
+    #jDescription
+    {
+      float: right;
+    }
+
+    #jDescription p
+    {
+      font-size: 20px;
+    }
+
   }
 
   @media only screen and (min-width: 1000px) {
