@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/foundation.css">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <title>JC Designs</title>
 </head>
 <body>
@@ -15,11 +16,15 @@
         <h2 class="hidden">Header</h2>
         <div class="small-4 columns" id="logo">
         <h2 class="hidden">Logo</h2>
->>>>>>> 45e95bc0548735dec872f1719ff7fcc262fb381c
         <img src="images/JC_logo.svg" alt="JC Designs Logo">
         </div>
         <nav class="small-4 columns" id="mainNav">
             <h2 class="hidden">Main Navigation</h2>
+            <div class="title-bar" data-responsive-toggle="main-menu" data-hide-for="large">
+                <div class="title-bar-right">
+                </div>
+             <button class="menu-icon" type="button" data-toggle="main-menu"></button>
+             </div>
             <ul>
                 <li><a href="about.html">About Us</a></li>
                 <li><a href="claudia.html">About Claudia</a></li>
@@ -34,10 +39,10 @@
         <h1 class="hidden">About Us</h1>
         </div>
         <div class="row">
-        <img id="claudia" class="small-6 columns" src="images/claudias_photo.jpg" alt="Photo of Claudia">
-        <img id="jaclyn" class="small-6 columns" src="images/jaclyns_photo.jpg" alt="Photo of Jaclyn">
+        <img class="small-6 columns" id="claud" src="images/claudias_photo.jpg" alt="Photo of Claudia">
+        <img class="small-6 columns" id="jac" src="images/jaclyns_photo.jpg" alt="Photo of Jaclyn">
         </div>
-        <div class="row">
+        <div class="small-12 columns">
         <div id="description">
             <p>Our names are Jaclyn and Claudia. <br>
               We are both students studying Interactive Media Design at Fanshawe College. <br>
@@ -49,21 +54,27 @@
     <section id="aboutClaudia">
         <div class="row">
         <h1 class="hidden">About Claudia</h1>
-        <img src="images/claudias_photo.jpg" alt="Photo of Claudia">
+        <img id="claudia" class="small-4 columns" src="images/claudias_photo.jpg" alt="Photo of Claudia">
+        </div>
+        <div class="small-12 columns">
         <div id="cDescription">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p> My name is Claudia Paguaga.<br>
+                I am a second year Interactive Media Design Student at Fanshawe College. <br>
+                I am 21 years old from London, Ontario. <br>
+                Some of my hobbies include fashion, art, music, and design.<br>
+                Throughout my high school and college career, I have discovered a deep love for design and art. I aim to pursue a career where I can use my passion and creativity to design eye-catching and challenging content. </p>
         </div>
         </div>
         <div class="lightbox">
         <h2 class="hidden">Claudia's Gallery</h2>
         <div class="row">
-            <img src="images/claudia_lexusHomepage.jpg" alt="Lexus of London Homepage">
+            <img class="lightboxPics" src="images/claudia_lexusHomepage.jpg" alt="Lexus of London Homepage">
         </div>
         <div class="row">
-            <img src="images/claudia_derrickRose.jpg" alt="Derrick Rose Poster">
+            <img class="lightboxPics" src="images/claudia_derrickRose.jpg" alt="Derrick Rose Poster">
         </div>
         <div class="row">
-            <img src="images/swoon_business_card.jpg" alt="Swoon Chardonnay Business Card Mockup">
+            <img class="lightboxPics" src="images/swoon_business_card.jpg" alt="Swoon Chardonnay Business Card Mockup">
         </div>
         </div>
     </section>
@@ -71,14 +82,14 @@
     <section id="aboutJaclyn">
         <h1 class="hidden">About Jaclyn</h1>
         <div class="row">
-        <img class="small-4 columns" src="images/jaclyns_photo.jpg" alt="Photo of Jaclyn">
+        <img id="jaclyn" class="small-4 columns" src="images/jaclyns_photo.jpg" alt="Photo of Jaclyn">
         </div>
-        <div class="small-10 columns">
+        <div class="small-12 columns">
         <div id="jDescription">
             <p>My name is Jaclyn Flomen. <br>
               I am a fourth year Media Theory and Production student at Western University and Fanshawe College. <br>
               I am 20 years old from Toronto, Ontario. <br>
-              Some of my hobbies include phtography, makeup, movies, and design.<br>
+              Some of my hobbies include photography, makeup, movies, and design.<br>
               Throughout my university and college careers, I have discovered a love for graphic design and aim to pursue a career where I can use my skills and passions to produce inspiring content.
             </p>
         </div>
@@ -86,13 +97,13 @@
         <div class="lightbox">
             <h2 class="hidden">Jaclyn's Gallery</h2>
             <div class="row">
-            <img src="images/jaclyns_work1.jpg" alt="Jaclyn's Photography">
+            <img class="lightboxPics" src="images/jaclyns_work1.jpg" alt="Jaclyn's Photography">
             </div>
             <div class="row">
-            <img src="images/jaclyns_work2.jpg" alt="Jaclyn's Photo">
+            <img class="lightboxPics" src="images/jaclyns_work2.jpg" alt="Jaclyn's Photo">
             </div>
             <div class="row">
-            <img src="images/jaclyns_work3.png" alt="Kostuch Media Ltd. NewsBlast">
+            <img class="lightboxPics" src="images/jaclyns_work3.png" alt="Kostuch Media Ltd. NewsBlast">
             </div>
         </div>
     </section>
