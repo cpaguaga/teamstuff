@@ -4,6 +4,27 @@ body {
   font-family: "Didot", Times;
 }
 
+.hidden {
+  display: none; 
+}
+
+#logo {
+  width: 25%;
+  height: 25%;
+}
+
+h1, h2 {
+  font-family: "Didot", 'Times New Roman', Times, serif; 
+  font-size: 20px; 
+}
+
+p {
+  font-family: "Didot-HTF-M42-Medium", 'Times New Roman', Times, serif; 
+  font-size: 20px; 
+  border: 2px solid #505050; 
+  padding: 15px; 
+}
+
 /*# sourceMappingURL=main.css.map */
 
 .socialmedia img
