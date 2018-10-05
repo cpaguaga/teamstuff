@@ -8,7 +8,7 @@ var span = document.querySelector("close")[0];
 
 function block_display()
 {
-	console.log()
+    console.log()
   btn.onclick = function(block_display) {
   modal.style.display = "block";
 }
@@ -35,3 +35,5 @@ window.onclick = function(event) {
 modal.addEventListener("click", block_display, false);
 span.addEventListener("click", closeone, false);
 window.addEventListener("click", display_back, false);
+})
+
