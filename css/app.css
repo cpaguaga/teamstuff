@@ -9,14 +9,13 @@ body {
   }
   
   #logo {
-    width: 25%;
-    height: 25%;
-    float: left;
+    float: left; 
   }
   
   h1, h2 {
     font-family: 'big_caslonmedium', 'Times New Roman', Times, serif; 
     font-size: 20px; 
+    text-align: center; 
   }
   
   p {
@@ -29,7 +28,7 @@ body {
   }
 
   #mainHeader {
-    background: url(banner_JC_Small.jpg); 
+    background: url(../images/banner_JC_Small.jpg); 
     position: relative;
     background-repeat: no-repeat; 
   }
@@ -113,4 +112,3 @@ body {
     margin-left: 20px;
     margin-right: 20px;
   }
-  
