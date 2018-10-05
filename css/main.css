@@ -1,5 +1,8 @@
 body {
-  background-color: #fff; }
+  background-color: #fff;
+  color: black;
+  font-family: "Didot", Times;
+}
 
 .hidden {
   display: none; 
@@ -23,3 +26,27 @@ p {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+.socialmedia img
+{
+  width: 30px;
+}
+
+.socialmedia
+{
+  list-style: none;
+  float:  right;
+}
+
+footer ul li
+{
+  list-style: none;
+  display: inline;
+  float: left;
+}
+
+footer
+{
+  margin-left: 20px;
+  margin-right: 20px;
+}
