@@ -2,10 +2,9 @@
 	"use strict";
 	console.log("SEAF fired");
 
-var modal = document.querySelector('lightbox');
-var btn = document.querySelector("lightbox_click");
-var span = document.querySelector("close")[0];
 
+var lp = document.querySelector('lightboxPics');
+var body = document.querySelector('body')
 function block_display()
 {
     console.log()
@@ -35,5 +34,13 @@ window.onclick = function(event) {
 modal.addEventListener("click", block_display, false);
 span.addEventListener("click", closeone, false);
 window.addEventListener("click", display_back, false);
-})
+  
+	console.log()
+  lp.onclick = function(block_display) {
+  lp.style.height = "100%";
+	body.style.opacity = "25%";
+}
+}
 
+lp.addEventListener("click", block_display, false);
+)}
