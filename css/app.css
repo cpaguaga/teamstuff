@@ -48,7 +48,7 @@ body {
   .menu-icon{
     background: none;
     width: 30px;
-    height: 5px;
+    height: 10px;
     padding: 10px; 
 }
 
@@ -129,4 +129,45 @@ body {
   {
     background-color: #F8E9E9;
     padding: 20px; 
+  }
+
+  @media only screen and (min-width: 700px) {
+
+    #mainHeader {
+      background: url(../images/banner_JC_Large.jpg); 
+      position: relative;
+      background-repeat: no-repeat; 
+    }
+
+    #logo {
+      width: 45%; 
+    }
+
+    #mainNav ul li a {
+      font-size: 20px; 
+    }
+
+    p {
+      font-size: 25px; 
+    }
+
+    #aboutUs {
+      padding: 20px; 
+    }
+
+    #aboutClaudia {
+      padding: 20px; 
+    }
+
+    #aboutJaclyn {
+      padding: 20px; 
+    }
+
+    footer ul li a {
+      font-size: 20px; 
+    }
+
+    .socialmedia img {
+      width: 30px; 
+    }
   }
