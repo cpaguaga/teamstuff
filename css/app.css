@@ -3,45 +3,45 @@ body {
     color: black;
     font-family: "Didot", Times;
   }
-  
+
   .hidden {
-    display: none; 
+    display: none;
   }
-  
+
   #logo {
-    float: left; 
+    float: left;
   }
-  
+
   h1, h2 {
-    font-family: 'big_caslonmedium', 'Times New Roman', serif; 
-    font-size: 20px; 
-    text-align: center; 
+    font-family: 'big_caslonmedium', 'Times New Roman', serif;
+    font-size: 20px;
+    text-align: center;
   }
-  
+
   p {
-    margin-top: 20px; 
-    font-family: 'big_caslonmedium', 'Times New Roman', serif; 
-    font-size: 20px; 
-    border: 1px solid #A0A0A0; 
-    padding: 15px; 
-    text-align: center; 
+    margin-top: 20px;
+    font-family: 'big_caslonmedium', 'Times New Roman', serif;
+    font-size: 20px;
+    border: 1px solid #A0A0A0;
+    padding: 15px;
+    text-align: center;
   }
 
   #mainHeader {
-    background: url(../images/banner_JC_Small.jpg); 
+    background: url(../images/banner_JC_Small.jpg);
     position: relative;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
   }
 
   #mainNav ul li a{
     font-family: 'Raleway', Arial, sans-serif;
-    color: #000000; 
-    font-size: 16px; 
+    color: #000000;
+    font-size: 16px;
     z-index: -1;
   }
 
   .title-bar {
-      background: none; 
+      background: none;
 
   }
 
@@ -49,69 +49,69 @@ body {
     background: none;
     width: 30px;
     height: 10px;
-    padding: 10px; 
+    padding: 10px;
 }
 
   #mainNav ul li {
-    list-style-type: none; 
+    list-style-type: none;
   }
 
   .button {
-    color: #505050; 
+    color: #505050;
   }
 
   #aboutUs {
-      margin-top: 10px; 
+      margin-top: 10px;
   }
-  
+
   #claud {
-    border-radius: 50px; 
+    border-radius: 50px;
   }
-  
+
   #jac {
-    border-radius: 50px; 
+    border-radius: 50px;
   }
-  
+
   #claudia {
-    margin-top: 10px; 
-    border-radius: 100px; 
-    float: left; 
+    margin-top: 10px;
+    border-radius: 100px;
+    float: left;
   }
-  
-  .lightboxPics {
-    border-radius: 25px; 
-    padding-bottom: 15px; 
-  }
-  
+
   #jaclyn {
-    border-radius: 100px; 
-    margin-top: 20px; 
+    border-radius: 100px;
+    margin-top: 20px;
   }
-  
+
   .lightbox {
-    border-bottom: 2px solid #A0A0A0; 
+    border-bottom: 2px solid #A0A0A0;
     padding-left: 20px;
-    padding-right: 20px; 
+    padding-right: 20px;
+  }
+
+  .lightboxPics {
+    border-radius: 25px;
+    padding-bottom: 15px;
   }
 
     #description {
-    border-bottom: 2px solid #A0A0A0; 
+    border-bottom: 2px solid #A0A0A0;
   }
-  
+
   /*# sourceMappingURL=app.css.map */
-  
+
   .socialmedia img
   {
     width: 30px;
   }
-  
+
   .socialmedia
   {
     list-style: none;
-    padding: 10px; 
+    padding: 10px;
   }
 
-  
+
   footer ul li
   {
     list-style: none;
@@ -120,54 +120,62 @@ body {
 
   footer ul li a {
     font-family: 'Raleway', sans-serif;
-    color: #000000; 
+    color: #000000;
     font-size: 16px;
-    padding: 10px; 
+    padding: 10px;
   }
-  
+
   footer
   {
     background-color: #F8E9E9;
-    padding: 20px; 
+    padding: 20px;
   }
 
   @media only screen and (min-width: 700px) {
 
     #mainHeader {
-      background: url(../images/banner_JC_Large.jpg); 
+      background: url(../images/banner_JC_Large.jpg);
       position: relative;
-      background-repeat: no-repeat; 
+      background-repeat: no-repeat;
     }
 
     #logo {
-      width: 45%; 
+      width: 45%;
     }
 
     #mainNav ul li a {
-      font-size: 20px; 
+      font-size: 20px;
     }
 
     p {
-      font-size: 25px; 
+      font-size: 25px;
     }
 
     #aboutUs {
-      padding: 20px; 
+      padding: 20px;
     }
 
     #aboutClaudia {
-      padding: 20px; 
+      padding: 20px;
     }
 
     #aboutJaclyn {
-      padding: 20px; 
+      padding: 20px;
     }
 
     footer ul li a {
-      font-size: 20px; 
+      font-size: 20px;
     }
 
     .socialmedia img {
-      width: 30px; 
+      width: 30px;
     }
   }
+
+  @media only screen and (min-width: 1000px) {
+
+    #mainHeader {
+      background: url(../images/banner_JC_XL.jpg);
+      position: relative;
+      background-repeat: no-repeat;
+    }
