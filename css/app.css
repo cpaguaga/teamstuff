@@ -202,3 +202,16 @@ body {
       position: relative;
       background-repeat: no-repeat;
     }
+
+    #cDescription {
+      float: right; 
+    }
+
+    #jDescription {
+      float: right; 
+    }
+
+    footer {
+      height: inherit; 
+    }
+  }
