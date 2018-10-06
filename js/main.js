@@ -20,6 +20,14 @@ function closeModal() {
   document.getElementById('myModal').style.display = "none";
 }
 
+var navT = document.querySelector(".topnav");
+var buttonX = document.querySelector("#menuButton")
 
-lp.addEventListener("click", block_display, false);
-})
+	function (toggleNav){
+		console.log();
+	  navT.style.display = "block";
+	}
+
+	buttonX.addEventListener("click", toggleNav, false);
+
+}());
