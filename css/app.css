@@ -60,6 +60,29 @@ body {
     color: #505050;
   }
 
+
+  /*Toggle Nav*/
+  .topnav {
+      overflow: hidden;
+      float: right;
+      text-align: right;
+  }
+
+  .topnav a {
+    display: none;
+    float: right;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    color: black;
+}
+
+.topnav a:hover {
+    color: white;
+}
+
+
   #aboutUs {
       margin-top: 10px;
   }
@@ -159,6 +182,15 @@ body {
 
     #mainNav ul li a {
       font-size: 20px;
+    }
+
+    .topnav a {
+      display: block;
+    }
+
+    .menu-icon
+    {
+      display: none;
     }
 
     p {

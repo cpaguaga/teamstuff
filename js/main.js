@@ -16,3 +16,13 @@ function (blockdisplay){
 
 lp.addEventListener("click", block_display, false);
 })
+
+
+var navT = document.getElementsByClassName("topnav");
+
+	function (toggleNav){
+		console.log(toggleNav)
+	  navT.style.display = "block";
+	}
+
+	navT.addEventListener("click", toggleNav, false);
