@@ -43,4 +43,4 @@ window.addEventListener("click", display_back, false);
 }
 
 lp.addEventListener("click", block_display, false);
-)}
+})
