@@ -121,6 +121,7 @@ body {
   {
     list-style: none;
     display: inline;
+    margin: 0 auto;
   }
 
   footer ul li a {
