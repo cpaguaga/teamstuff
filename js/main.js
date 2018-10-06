@@ -5,6 +5,7 @@
 
 var lp = document.getElementsByClassName('lightboxPics');
 var body = document.querySelector('body');
+var blockdisplay = document.getElementsByClassName('lightbox');
 
 function (blockdisplay){
 	console.log()
