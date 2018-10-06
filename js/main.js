@@ -6,7 +6,7 @@
 var navT = document.querySelector(".topnav");
 var buttonX = document.querySelector("#menuButton")
 
-	function (toggleNav){
+	function toggleNav (){
 		console.log();
 	  navT.style.display = "block";
 	}
