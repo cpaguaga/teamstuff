@@ -72,6 +72,11 @@ body {
     border-radius: 50px;
   }
 
+  #description p
+  {
+    font-size: 22px;
+  }
+
   #claudia {
     margin-top: 10px;
     border-radius: 100px;
@@ -191,6 +196,23 @@ body {
     #jDescription p
     {
       font-size: 20px;
+    }
+
+
+    #cDescription p
+    {
+      font-size: 20px;
+    }
+
+    #cDescription
+    {
+      float: left;
+      margin-bottom: 20px;
+    }
+
+    #claudia
+    {
+      margin-bottom: 20px;
     }
 
   }
