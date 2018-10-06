@@ -12,12 +12,12 @@ function blockdisplay(){
 	body.style.opacity = "25%";
 }
 
-function openModal() {
-  document.getElementById('myModal').style.display = "block";
+function openLBox() {
+  document.getElementById('.lighbox').style.display = "block";
 }
 
-function closeModal() {
-  document.getElementById('myModal').style.display = "none";
+function closeLBox() {
+  document.getElementById('.lightbox').style.display = "none";
 }
 
 var navT = document.querySelector(".topnav");
