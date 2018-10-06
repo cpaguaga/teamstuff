@@ -13,4 +13,4 @@ function (block_display){
 }
 
 lp.addEventListener("click", block_display, false);
-)}
+})
