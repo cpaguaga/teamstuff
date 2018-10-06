@@ -3,16 +3,14 @@
 	console.log("SEAF fired");
 
 
-var lp = document.getElementsByClassName('lightboxPics');
-var body = document.querySelector('body');
-var blockdisplay = document.getElementsByClassName('lightbox');
+var navT = document.querySelector(".topnav");
+var buttonX = document.querySelector("#menuButton")
 
-function (blockdisplay){
-	console.log()
-  lp.style.height = "100%";
-	body.style.opacity = "25%";
-}
+	function (toggleNav){
+		console.log();
+	  navT.style.display = "block";
+	}
 
+	buttonX.addEventListener("click", toggleNav, false);
 
-lp.addEventListener("click", block_display, false);
-})
+}());
