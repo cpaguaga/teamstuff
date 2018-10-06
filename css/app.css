@@ -93,12 +93,15 @@ body {
       padding-top: 0;
   }
 
-  .lightbox {
-  }
 
   .lightboxPics {
     border-radius: 25px;
     padding-bottom: 15px;
+  }
+
+  .lightbox
+  {
+    clear: both;
   }
 
     #description {
